@@ -1,19 +1,37 @@
-# EXPT.NO.9-IMPLEMENTATION-OF-GO-BACK-N-PROTOCOL-SELECTIVE-REPEAT
+# DATE : 12/03/2026
+# EXPT.NO.8-IMPLEMENTATION-OF-GO-BACK-N-PROTOCOL-SELECTIVE-REPEAT
+## NAME:Rabin R
+## REG NO: 212223060215
+
 # AIM:
+
 To write and execute a program for Go-Back-N protocol-Selective Repeat.
+
 # EQUIPMENTS REQUIRED:
-Personal Computer Turbo C Compiler
+
+Personal Computer 
+
+Turbo C Compiler
+
 # PROCEDURE:
+
 8.	Connect two computers in Wired/Wireless LAN.
-9.	Make sure that two computers are in one network and could able to ping each other.
-10.	In the codeblocker open new c file and type the program.
-11.	In the menu choose->Project->Properties->Project Build options->Linker settings->Add netproto and pthread.
-12.	Execute the program in both server and client.
-13.	Enter the IP address of the remote machine, port address of both local & remote machine and error rate.
-14.	Choose the file and verify the go back protocol operation.
+   
+10.	Make sure that two computers are in one network and could able to ping each other.
+   
+12.	In the codeblocker open new c file and type the program.
+    
+14.	In the menu choose->Project->Properties->Project Build options->Linker settings->Add netproto and pthread.
+    
+16.	Execute the program in both server and client.
+    
+18.	Enter the IP address of the remote machine, port address of both local & remote machine and error rate.
+    
+20.	Choose the file and verify the go back protocol operation.
 
 # PROGRAM:
 
+~~~
 #include<stdio.h> void main()
 {
 
@@ -47,14 +65,13 @@ printf("\n Sending frame %d \n FRAME ACKNOWLEDGED.	\n",j);
 
 printf("\n\nALL FRAME RECIEVED SUCCESSFULLY\n\n");
 }
-OUTPUT:
+~~~
 
- 
+## OUTPUT:
 
-
-
-
+<img width="1478" height="934" alt="image" src="https://github.com/user-attachments/assets/c3fa9f2f-61b5-46ff-a549-6342534469a1" />
 
 
 # RESULT:
+
 Thus the Go-Back-N protocol- Selective Repeat was implemented and the output is verified successfully.
